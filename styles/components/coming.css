@@ -1,0 +1,25 @@
+body {
+  background-image: url(/public/lofi\ street.jpg);
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: Aesthetic;
+  src: url(/public/Aesthetic/AestheticRegular-8M5dM.ttf);
+}
+
+h1 {
+  margin-top: 100px;
+  font-family: Aesthetic;
+  font-size: 4.5rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 4px 8px rgb(204, 0, 255);
+  border: 6px solid black;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px purple;
+  background-color: rgba(0, 0, 0, 0.452);
+  padding: 30px;
+}
