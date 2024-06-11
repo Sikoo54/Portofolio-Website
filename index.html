@@ -12,7 +12,7 @@
   </head>
 
   <body>
-    <!-- header menu -->
+    <!------------ header menu ------------>
     <header class="header container">
       <nav>
         <ul class="header__menu">
@@ -20,7 +20,7 @@
             <a class="header__link" href="#about">About</a>
           </li>
           <li>
-            <a class="header__link" href="#featured">Work</a>
+            <a class="header__link" href="#work">Work</a>
           </li>
           <li>
             <a class="header__link" href="#contact">Contact</a>
@@ -46,7 +46,10 @@
           </li>
 
           <li>
-            <a class="header__resume bn5" href="coming.html" target="_blank"
+            <a
+              class="header__resume bn5"
+              href="public/Resume.pdf"
+              target="_blank"
               >Resume</a
             >
           </li>
@@ -70,9 +73,9 @@
 
     <main>
       <div></div>
-      <!-- hero -->
+      <!------------ hero ------------>
       <section class="hero container">
-        <img class="hero__img" src="/foto sacha.jpg" alt="" />
+        <img class="hero__img" src="/public/me 3.jpg" alt="" />
         <h2 class="hero__subtitle">👋 Hey! I'm Sacha 🎉</h2>
         <h1 class="hero__title">
           FRONT-END <br />
@@ -95,8 +98,8 @@
         >
       </section>
 
-      <!-- about -->
-      <section class="about container section">
+      <!------------ about ------------>
+      <section id="about" class="about container section">
         <div class="about__content">
           <h2 class="about__title">About</h2>
           <p class="about__description">
@@ -129,19 +132,19 @@
               <li class="about__list">JavaScript</li>
             </ul>
             <ul class="about__ul">
-              <li class="about__list">React</li>
-              <li class="about__list">Bootstrap</li>
-              <li class="about__list">Blender 3D Design</li>
+              <li class="about__list">React.js (Beginner)</li>
+              <li class="about__list">Tailwind (Beginner)</li>
+              <li class="about__list">Figma</li>
             </ul>
           </div>
         </div>
         <div class="about__img-wrapper">
-          <img class="about__img" src="/photo_2024-03-23_17-49-20.jpg" alt="" />
+          <img class="about__img" src="public/other me 2.jpg" alt="" />
         </div>
       </section>
 
-      <!-- projects -->
-      <section class="work container section">
+      <!------------ projects ------------>
+      <section id="work" class="work container section">
         <h2 class="work__title">Projects</h2>
         <p class="work__description">
           Mollit pariatur tempor nisi dolor non consequat magna cupidatat
@@ -149,25 +152,98 @@
           deserunt ipsum.
         </p>
 
-        <!-- project 1 -->
-        <h3>Black Jack</h3>
-        <img src="public/Black Jack SS.jpg" alt="BlackJack Website" />
-        <p>
-          Labore magna ut non labore Lorem nisi culpa sint et quis sint. Enim
-          pariatur deserunt do ad exercitation.
-        </p>
-        <p>
-          Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
-          commodo. Do esse excepteur cillum deserunt duis incididunt. Eu tempor
-          ullamco aliqua consectetur incididunt anim dolor sunt laboris
-          adipisicing cupidatat sint.
-        </p>
-        <a class="bn5" href="#">Website</a>
+        <div class="work__container">
+          <!------------ project 1 ------------>
+          <h3 class="work__project-title">Blackjack</h3>
+          <div class="work__img-wrapper work__image1">
+            <img src="public/blackjack.jpg" alt="BlackJack Website" />
+          </div>
+          <div class="work__project work__content1">
+            <h3 class="work__project-subtitle">Blackjack</h3>
+            <p class="work_project-description1">
+              With guidance from a Scrimba course, I created a simple card game
+              website that's kinda like Blackjack, using HTML, CSS, and
+              JavaScript.
+            </p>
+            <p class="work_project-description2">
+              I implemented core game mechanics, added sound effects, and
+              developed a money or chips system to enhance the gameplay
+              experience. This project highlights my ability to learn javascript
+              and apply that knowledge to develop functional and engaging web
+              applications.
+            </p>
+            <a
+              class="bn5 work_project-button"
+              href="https://sikoo54.github.io/BLACK-JACK/"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+
+          <!------------ project 2 ------------>
+          <h3 class="work__project-title">Friskay</h3>
+          <div class="work__img-wrapper work__image2">
+            <img src="public/friskay thumbnail.png" alt="Friskay Website" />
+          </div>
+          <div class="work__project work__content2">
+            <h3 class="work__project-subtitle">Friskay</h3>
+            <p class="work_project-description1">
+              The Friskay Cat Food website, a modern and user-friendly platform
+              showcasing premium cat food products. The design was meticulously
+              crafted in Figma.
+            </p>
+            <p class="work_project-description2">
+              focusing on visual appeal and intuitive navigation. Utilizing HTML
+              and CSS, I ensured a clean and attractive layout. To enhance the
+              user experience, I integrated a JavaScript library for smooth
+              scrolling, providing seamless transitions and an engaging browsing
+              experience.
+            </p>
+            <a
+              class="bn5 work_project-button"
+              href="https://sikoo54.github.io/friskay-website/"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+
+          <!------------ project 3 ------------>
+          <h3 class="work__project-title">Number Guessing</h3>
+          <div class="work__img-wrapper work__image3">
+            <img src="public/number guess (4).jpg" alt="BlackJack Website" />
+          </div>
+          <div class="work__project work__content3">
+            <h3 class="work__project-subtitle">Number Guessing</h3>
+            <p class="work_project-description1">
+              Experience the thrill of the Number Guessing Game, where players
+              aim to guess a random number between 1 to 100.
+            </p>
+            <p class="work_project-description2">
+              Using HTML, CSS, and JavaScript, this sleek and interactive game
+              provides instant feedback on guesses, ensuring an engaging
+              experience. This project demonstrates my proficiency in javascript
+              and showcases an entertaining user experience through code.
+            </p>
+            <a
+              class="bn5 work_project-button"
+              href="https://sikoo54.github.io/Number-Guessing-Game/"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+        </div>
       </section>
 
-      <section></section>
-      <section></section>
+      <section class="contact container section">
+        <!-- <a
+          class="bn5 work_project-button"
+          href="mailto:sachas4f@gmail.com"
+          target="_blank"
+          >Mail</a
+        > -->
+      </section>
     </main>
+
     <footer></footer>
     <script type="module" src="src/main.js"></script>
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>

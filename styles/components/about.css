@@ -4,6 +4,10 @@
   gap: 1rem;
 }
 
+.about__img {
+  border-radius: 50%;
+}
+
 .about__content {
   display: flex;
   flex-direction: column;
