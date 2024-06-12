@@ -5,6 +5,7 @@
 .work__title {
   font-size: var(--size-2xl);
   color: var(--clr-light);
+  margin-bottom: 50px;
 }
 
 .work__description {
@@ -77,7 +78,7 @@
   }
 
   .work__project-title {
-    font-size: var(--size-base);
+    font-size: var(--size-2xl);
     margin-bottom: 1.5rem;
   }
   .work_project-description1 {
