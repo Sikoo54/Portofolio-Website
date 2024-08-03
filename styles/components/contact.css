@@ -19,7 +19,7 @@
   max-width: 60ch;
 }
 
-.bn5 {
+.contact-button {
   font-size: var(--size-sm);
 }
 
@@ -37,7 +37,7 @@
     font-size: var(--size-base);
   }
 
-  .bn5 {
+  .contact-button {
     font-size: var(--size-base);
   }
 }
@@ -58,7 +58,7 @@
     font-size: var(--size-large);
   }
 
-  .bn5 {
+  .contact-button {
     font-size: var(--size-large);
   }
 }
@@ -76,7 +76,7 @@
     font-size: var(--size-xl);
   }
 
-  .bn5 {
+  .contact-button {
     font-size: var(--size-xl);
   }
 }
