@@ -5,7 +5,7 @@
 }
 
 .about__img {
-  border-radius: 50%;
+  border-radius: 5%;
 }
 
 .about__content {
@@ -86,9 +86,9 @@
 }
 
 /* sm */
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   .about__img {
-    width: 28.6875rem;
+    width: 24rem;
   }
   .about__img-wrapper {
     margin: 0 auto;
